@@ -16,3 +16,11 @@
 5. CMD: `git init`?
 --> Command used to initialize new git repository. After initializing by default HEAD points to master branch. 
 Note: Know more about HEAD on below section.
+
+6. CMD: `git add`?
+--> This command is used to add files from working directory to staging area.
+    `git add file1 file2 file3` : This will add all the specified files.
+    `git add .`: This will add all the files.
+
+7. CMD: `git commit`?
+--> It's used for adding the files from staging areas to repository area. -m flag is used to specify commit message
