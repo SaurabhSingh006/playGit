@@ -1,0 +1,18 @@
+1. What is Git? 
+--> Git is the most popular version control system.
+
+2. How to configure git?
+--> For setting the name CMD: `git config --global user.name "Saurabh Singh"`.
+    For getting the name CMD: `git config user.name`.
+    For setting the email CMD: `git config --global user.email "saurabh260399@gmail.com"`.
+    For getting the email CMD: `git config user.email`.
+
+3. What is Repository?
+--> A Git Repository is a workspace which tracks and manages files within a folder.
+
+4. CMD: `git status`?
+--> It's gives info on the current status of a repository.
+
+5. CMD: `git init`?
+--> Command used to initialize new git repository. After initializing by default HEAD points to master branch. 
+Note: Know more about HEAD on below section.
