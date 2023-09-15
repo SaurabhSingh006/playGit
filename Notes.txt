@@ -59,4 +59,7 @@ Note: Know more about HEAD on below section.
 
 16. CMD: `git branch -D <branch-name-to-delete>`?
 --> This will delete the specified branch forcefully. Condition is you must be on some other  
-    branch.
+    branch. 
+
+17. CMD: `git branch -m <new-branch-name>`?
+--> This command will rename the current branch you are pointing.
