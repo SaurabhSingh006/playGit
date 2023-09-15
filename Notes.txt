@@ -54,4 +54,5 @@ Note: Know more about HEAD on below section.
 
 15. CMD: `git branch -d <branch-name-to-delete>`?
 --> This command will delete the specified branch. But make sure HEAD is not pointing to the
-    current branch
+    current branch.
+    Note: The branch you are deleting must be 
