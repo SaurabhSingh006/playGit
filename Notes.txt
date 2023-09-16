@@ -66,3 +66,6 @@ Note: Know more about HEAD on below section.
 
 18. CMD: `git branch -m <new-branch-name>`?
 --> This command will rename the current branch you are pointing.
+
+19. CMD: `git merge <branch_name>`?
+-->
