@@ -1,0 +1,71 @@
+1. What is Git? 
+--> Git is the most popular version control system.
+
+2. How to configure git?
+--> For setting the name CMD: `git config --global user.name "Saurabh Singh"`.
+    For getting the name CMD: `git config user.name`.
+    For setting the email CMD: `git config --global user.email "saurabh260399@gmail.com"`.
+    For getting the email CMD: `git config user.email`.
+
+3. What is Repository?
+--> A Git Repository is a workspace which tracks and manages files within a folder.
+
+4. CMD: `git status`?
+--> It's gives info on the current status of a repository.
+
+5. CMD: `git init`?
+--> Command used to initialize new git repository. After initializing by default HEAD points to master branch. 
+Note: Know more about HEAD on below section.
+
+6. CMD: `git add`?
+--> This command is used to add files from working directory to staging area.
+    `git add file1 file2 file3` : This will add all the specified files.
+    `git add .`: This will add all the files.
+
+7. CMD: `git commit`?
+--> It's used for adding the files from staging areas to repository area. -m flag is used to specify commit message.
+
+8. CMD: `git log`?
+--> To see the list of commit history.
+    For single line commit message use --oneline flag.
+
+9. Comment ammending?
+--> It is use when we forgot to add some files or we've to edit the commit message.
+    CMD: `git commit --amend`
+
+10. CMD: `git branch`?
+--> This will list out all the local branch for that specific repository.
+    On the list your current branch is highlighted using *. 
+
+11. CMD: `git branch <branch-name>`?
+--> This command is used to create new branch based on the current HEAD.
+    The created branch points to the latest commit of your current branch.
+
+12. CMD: `git switch <branch-name>`?
+--> This will switch the to specified branch.
+    This is the new command added by the git community to change branch. Previously git checkout is used mentioned below.
+
+13. CMD: `git checkout <branch-name>`?
+--> Historically this command is used for switching the branch and it also stills work.
+    checkout command does lot more than switching the branch. Hence new command is created for switching the branch i.e git switch.
+
+14. CMD: `git switch -c <branch-name>`?
+--> Instead of creating new branch using `git switch <branch-name>` and the switch using command `git switch <branch-name>` we can do it using one command i.e `git switch -c <branch-name>`
+
+15. CMD: `git branch -d <branch-name-to-delete>`?
+--> This command will delete the specified branch. But make sure HEAD is not pointing to the
+    current branch.
+    Note: The branch you are deleting must be merged with the current branch and also you are not supposed to be on the deleting branch.
+    IMPORTANT: This will delete the branch on your local repository inorder to delete it from remote repository you have to use separete command.
+
+16. CMD: `git push origin -d <branch_name>`?
+--> This command will delete specified branch from remote repository.
+
+17. CMD: `git branch -D <branch-name-to-delete>`?
+--> This will delete the specified branch forcefully. Condition is you must be on some other branch. 
+
+18. CMD: `git branch -m <new-branch-name>`?
+--> This command will rename the current branch you are pointing.
+
+19. CMD: `git merge <branch_name_you_have_to_merge>`?
+--> Suppose you are on main branch and you have to get all the code from feature branch then Command will be `git merge feature` 
