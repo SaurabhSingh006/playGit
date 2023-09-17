@@ -51,6 +51,7 @@ Note: Know more about HEAD on below section.
 
 14. CMD: `git switch -c <branch-name>`?
 --> Instead of creating new branch using `git switch <branch-name>` and the switch using command `git switch <branch-name>` we can do it using one command i.e `git switch -c <branch-name>`
+--> Alternate command `git checkout -b <branch_name>`
 
 15. CMD: `git branch -d <branch-name-to-delete>`?
 --> This command will delete the specified branch. But make sure HEAD is not pointing to the
@@ -69,3 +70,6 @@ Note: Know more about HEAD on below section.
 
 19. CMD: `git merge <branch_name_you_have_to_merge>`?
 --> Suppose you are on main branch and you have to get all the code from feature branch then Command will be `git merge feature` 
+
+20. CMD: `git diff`?
+--> This command will listout all the local change with respect to latest previous commit.
