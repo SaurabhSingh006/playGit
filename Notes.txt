@@ -1,13 +1,13 @@
-1. What is Git? 
+01. What is Git? 
 --> Git is the most popular version control system.
 
-2. How to configure git?
+02. How to configure git?
 --> For setting the name CMD: `git config --global user.name "Saurabh Singh"`.
     For getting the name CMD: `git config user.name`.
     For setting the email CMD: `git config --global user.email "saurabh260399@gmail.com"`.
     For getting the email CMD: `git config user.email`.
 
-3. What is Repository?
+03. What is Repository?
 --> A Git Repository is a workspace which tracks and manages files within a folder.
 
 4. CMD: `git status`?
