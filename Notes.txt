@@ -93,3 +93,6 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 
 25. CMD: `git stash drop stash@{2}`?
 --> THis command will delete the specified stash from the stash list.
+
+26. CMD: `git checkout <commit_hash_id>`?
+--> This will travel back to older commit code. By using this command you will receive message like de-attached HEAD. Because you are now not points to the tip of the branch i.e not pointing to the latest commit for that branch.
