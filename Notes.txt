@@ -79,7 +79,17 @@ Note: Know more about HEAD on below section.
 
 22. CMD: `git stash pop`?
 --> This command will re-apply all the stashed changse to your working copy.
+NOTE: If we have more than one stash list then this will remove the stash from stash list after poping. We can avoid this by using `git stash apply` command.
 
 23. CMD: `git stash list`?
 --> This command will list out all the stash from latest to oldest.
+Stash list will looks like shown below:
+rishabh@mac-pro-8:~/Saurabh/PlayTest/playGit$ git stash list
+stash@{0}: WIP on saurabh: f6e32b2 update notes 23
+stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 
+24. CMD: `git stash apply`?
+--> This command will apply the lastest stash changes to your local files. We can also select the history stash using stash ID like `git stash apply stash@{1}`.
+
+25. CMD: `git stash drop stash@{2}`?
+--> THis command will delete the specified stash from the stash list.
