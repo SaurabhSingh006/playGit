@@ -96,3 +96,6 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 
 26. CMD: `git checkout <commit_hash_id>`?
 --> This will travel back to older commit code. By using this command you will receive message like de-attached HEAD. Because you are now not points to the tip of the branch i.e not pointing to the latest commit for that branch.
+
+27. CMD: `git switch -`?
+--> This command will get back to the tip of branch and avoid issue with de-attcahed HEAD. Alternate CMD: `git switch <branch_name>`
