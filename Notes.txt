@@ -78,3 +78,6 @@ Note: Know more about HEAD on below section.
 
 22. CMD: `git stash pop`?
 --> This command will re-apply all the stashed changse to your working copy.
+
+23. CMD: `git stash list`?
+--> This command will list out all the stash from latest to oldest.
