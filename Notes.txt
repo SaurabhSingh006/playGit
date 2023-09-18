@@ -70,7 +70,7 @@ Note: Know more about HEAD on below section.
 19. CMD: `git merge <branch_name_you_have_to_merge>`?
 --> Suppose you are on main branch and you have to get all the code from feature branch then Command will be `git merge feature` 
 
-21. CMD: `git diff`?
+20. CMD: `git diff`?
 --> This command will listout all the local change with respect to latest previous commit.
 
 21. CMD: `git stash`?
