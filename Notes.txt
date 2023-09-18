@@ -82,4 +82,4 @@ Note: Know more about HEAD on below section.
 
 23. CMD: `git stash list`?
 --> This command will list out all the stash from latest to oldest.
-changea
+
