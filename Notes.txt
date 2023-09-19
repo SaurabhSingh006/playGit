@@ -108,4 +108,7 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 --> This command will remove all the local changes of repository to the HEAD of that repository. Alternate command for this mentioned below.
 
 30. CMD: `git restore <file1> <file2>`?
---> This command will restore all the changes back to HEAD. Git checkout does a multiple different things which many git users find very confusing. Hence git restore command is introduced.
+--> This command will restore all the changes back to HEAD. Git checkout does a multiple different things which many git users find very confusing. Hence git restore command is introduced. 
+
+31. CMD: `git restore --staged <file_name>`?
+--> If you accidentally added the file and want to unstage it.
