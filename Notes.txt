@@ -95,7 +95,17 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 --> THis command will delete the specified stash from the stash list.
 
 26. CMD: `git checkout <commit_hash_id>`?
---> This will travel back to older commit code. By using this command you will receive message like de-attached HEAD. Because you are now not points to the tip of the branch i.e not pointing to the latest commit for that branch.
+--> This will travel back to older commit code. By using this command you will receive message like de-attached HEAD. Because you are now not points to the tip of the branch i.e not pointing to the latest commit for that branch.Another way shown below.
 
-27. CMD: `git switch -`?
+27. CMD: `git checkout HEAD~1`?
+--> HEAD~1 refer to the commit before HEAD
+    HEAD~2 refer to the 2 commit before the HEAD
+
+28. CMD: `git switch -`?
 --> This command will get back to the tip of branch and avoid issue with de-attcahed HEAD. Alternate CMD: `git switch <branch_name>`
+
+29. CMD: `git checkout -- <file1> <file2>`?
+--> This command will remove all the local changes of repository to the HEAD of that repository. Alternate command for this mentioned below.
+
+30. CMD: `git restore <file1> <file2>`?
+--> This command will restore all the changes back to HEAD. Git checkout does a multiple different things which many git users find very confusing. Hence git restore command is introduced.
