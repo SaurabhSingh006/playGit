@@ -110,5 +110,8 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 30. CMD: `git restore <file1> <file2>`?
 --> This command will restore all the changes back to HEAD. Git checkout does a multiple different things which many git users find very confusing. Hence git restore command is introduced. 
 
-31. CMD: `git restore --staged <file_name>`?
+31. CMD: `git restore --source (<commit_hash_id> / HEAD~1) <file_name>`?
+--> This command will restore the change to the specific commit for the specific file.
+
+32. CMD: `git restore --staged <file_name>`?
 --> If you accidentally added the file and want to unstage it.
