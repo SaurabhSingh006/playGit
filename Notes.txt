@@ -120,3 +120,4 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 --> This command jump code back to specified commit ID. And all the extra code will remain as unstaged changes. --hard is used when you don't need any changes.
 
 j jkj  hjg h h
+kkjjkj hgf f jhg 
