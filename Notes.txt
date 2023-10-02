@@ -117,7 +117,5 @@ stash@{1}: WIP on saurabh: f6e32b2 update notes 23
 --> If you accidentally added the file and want to unstage it.
 
 33. CMD: `git reset <commit_hash_id>`?
---> This command jump code back to specified commit ID. And all the extra code will remain as unstaged changes. --hard is used when you don't need any changes.
-
-j jkj  hjg h h
-kkjjkj hgf f jhg 
+--> This command jump code back to specified commit ID. And all the extra code will remain as unstaged changes.
+MOST IMP: But commit is reset locally so before doing any changes use git push command inorder to update it's remote repository.
