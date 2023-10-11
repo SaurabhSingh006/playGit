@@ -122,3 +122,12 @@ MOST IMP: But commit is reset locally so before doing any changes use git push c
 
 34. CMD: `git revert <commit_hash_id>`?
 --> This command will undo all the changes but not remove the previous commit in case of reset it will remove previous commit.
+
+35. CMD: `git clone <repository_url>`?
+--> This command will download all the code locally also initialize git file.
+
+36. What is remote in git?
+--> Before we can push anything on github, we need to tell git about the destination of remote repository
+
+37. CMD: `git remote -v`?
+--> This command is used to view all the remote of your repository.
